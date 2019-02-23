@@ -3,11 +3,11 @@ interface Person {
     age: number;
 }
 
-const greeter = (person: Person) => `Hello, ${person.name} ${person.age}`;
+const greeter2 = (person: Person) => `Hello, ${person.name} ${person.age}`;
 
-var user = {
+var user2 = {
     name: 'od',
     age: 18
 };
 
-console.log(greeter(user));
+console.log(greeter2(user2));
